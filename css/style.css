@@ -6,7 +6,31 @@ html {
 }
 .container {
     display: flex;
+    max-width: 960px;
+    background-color: #eaeaea;
+    margin: 20px auto;
 }
 .profile {
-    max-width: 350px;;
+    max-width: 350px;
+    background-color: #39383a;
+    color: #ffffff;
+}
+.profile-photo {
+    height: 270px;
+    background-image: url(/img/foto.jpg);
+    background-size: cover;
+    background-position: top;
+}
+.profile-info {
+    padding: 50px 30px 70px 30px;
+}
+.profile-text {
+    line-height: 24.19px;
+    font-size: 13px;
+
+}
+.heading-light {
+    color: #ffffff;
+    border-bottom: 2px dashed #5a5a5a;
+    padding-bottom: 16px;
 }
