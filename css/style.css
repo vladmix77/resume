@@ -8,10 +8,12 @@ html {
     display: flex;
     max-width: 960px;
     background-color: #eaeaea;
+    justify-content: space-between;
     margin: 20px auto;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
 }
 .profile {
-    max-width: 350px;
+    flex-basis: 35%;
     background-color: #39383a;
     color: #ffffff;
 }
@@ -112,4 +114,82 @@ font-style: normal;
 .line:nth-child(2) {
     width: 100px;
     margin-left: 20px;
+}
+.resume {
+padding: 25px 30px;
+flex-basis: 63%;
+background-color: #fff;
+
+}
+.resume-wrap {
+    padding: 36px 56px;
+    border: 1px solid rgba(168, 168, 168, 0.44);
+    min-height: 100%;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 38px;
+}
+.logo-img {
+    width: 90px;
+    height: 90px;
+    border: 1px solid #39383a;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.logo-lines {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+.logo-line {
+    width: 43px;
+    height: 2px;
+    background-color: #39383a;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.logo-lines_left .logo-line:nth-child(2) {
+    margin-right: 20px;
+    width: 55px;
+}
+.logo-lines_right .logo-line:nth-child(2) {
+    margin-left: 20px;
+    width: 55px;
+}
+.about {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e0e0e0;
+    text-align: center;
+}
+.name {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    margin-bottom: 10px;
+}
+.position {
+    display: inline-block;
+    font-size: 9px;
+    text-transform: uppercase;
+    color: #808080;
+    margin-bottom: 30px;
+}
+.about-address {
+    font-size: 13px;
+    margin-bottom: 15px;
+    font-family: Roboto;
+}
+.about-contacts {
+    font-size: 8px;
+}
+.about-contacts_link {
+    text-decoration: none;
+    color: #777777;
 }
