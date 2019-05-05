@@ -215,7 +215,7 @@ background-color: #fff;
     content: '';
     position: absolute;
     left: 0;
-    top: 0;
+    top: 5px;
     width: 9px;
     height: 9px;
     border-radius: 50%;
@@ -228,6 +228,12 @@ background-color: #fff;
 }
 .list-item__date {
     font-size: 10px;
-   text-transform: uppercase;
+    text-transform: uppercase;
 }
-.
+.list-item__text {
+    font-size: 10px;
+    color: #777;
+}
+.list-item_non-border {
+    border: none;
+}
