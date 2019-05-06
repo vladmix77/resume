@@ -12,6 +12,9 @@ html {
     margin: 20px auto;
     box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
 }
+
+/* ----- Profile left колонка страницы ----- */
+
 .profile {
     flex-basis: 35%;
     background-color: #39383a;
@@ -115,6 +118,9 @@ font-style: normal;
     width: 100px;
     margin-left: 20px;
 }
+
+/* ----- Resume right колонка страницы ----- */
+
 .resume {
 padding: 25px 30px;
 flex-basis: 63%;
@@ -245,14 +251,14 @@ background-color: #fff;
     list-style-type: none;
     padding-left: 0;
 } 
+/* ------- блок в котором проблема ввыравнивания линии по вертикали!!!!! ----- */
 .skills-list__item {
     margin-bottom: 30px;
     text-transform: uppercase;
-    font-size: 10px;
+    font-size: 11px;
     display: flex;
     justify-content: space-between;
-    border: 1px solid red;
-    
+    border: 1px solid red;    
 }
 .level {
     width: 70%;
