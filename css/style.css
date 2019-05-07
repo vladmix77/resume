@@ -303,14 +303,37 @@ background-color: #fff;
         flex-direction: column;
         width: 70%;
     }
+    /* --- Photo изминения --- */
     .profile-photo {
-        height: 500px;       
+        width: 200px;
+        height: 200px;
+        border: 3px solid #fff;
+        margin: auto;
+        margin-top: 40px;
+    }
+    .profile {
+        position: relative;
+    }
+    .profile:before {
+        content: '';
+        width: 100%;
+        height: 150px;
+        background-color: #ececec;
+        display: block;
+        position: absolute;
+    }
+    .profile-photo {
+        position: relative;
+        z-index: 9;
     }
 }
 /* --- Если меньше 768px то... --- */
 @media (max-width: 768px) {
     .container {
         width: 80%;
+    }
+    .resume {
+        padding: 10px;
     }
     .resume-wrap {
         padding-left: 20px;
@@ -324,6 +347,10 @@ background-color: #fff;
     }
     .list-item__text {
         font-size: 12px;
+    }
+    .about-contacts_link {
+         display: block;
+         font-size: 13px;
     }
 }
 /* --- Если меньше 567px то... --- */
