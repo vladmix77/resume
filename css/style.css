@@ -284,3 +284,62 @@ background-color: #fff;
 .level-50:before {
     width: 50%;
 }
+
+/* ------ Адаптивная верстка сайта ------ */ 
+
+/* --- Если меньше 1024px то... --- */
+@media (max-width: 1024px) {
+    .container {
+        width: 90%;
+    }
+    /* --- Скрытие трёх линий --- */
+    .lines {
+        display: none;
+    }
+}
+/* --- Если меньше 992px то... --- */
+@media (max-width: 992px) {
+    .container {
+        flex-direction: column;
+        width: 70%;
+    }
+    .profile-photo {
+        height: 500px;       
+    }
+}
+/* --- Если меньше 768px то... --- */
+@media (max-width: 768px) {
+    .container {
+        width: 80%;
+    }
+    .resume-wrap {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+/* --- Если меньше 567px то... --- */
+@media (max-width: 567px) {
+    .logo-img {
+        width: 70px;
+        height: 70px;
+    }
+    .logo-lines {
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+}
+/* --- Если меньше 480px то... --- */
+@media (max-width: 480px) {
+    .logo {
+       display: none;
+    }
+    .container {
+        min-width: 320px;
+    }
+    .name {
+        letter-spacing: normal;
+    }
+    .level {
+        width: 50%;
+    }
+}
