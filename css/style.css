@@ -258,11 +258,12 @@ background-color: #fff;
     font-size: 11px;
     display: flex;
     justify-content: space-between;
-    border: 1px solid red;    
+    border: 1px solid red;       
 }
 .level {
     width: 70%;
     height: 8px;
+    margin-top: 2px; /* ---- относительное решение ствига блока ---- */ 
     border: 1px solid #39383a;
     position: relative;   
 }
