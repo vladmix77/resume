@@ -316,6 +316,15 @@ background-color: #fff;
         padding-left: 20px;
         padding-right: 20px;
     }
+    .list-item__title {
+        font-size: 14px;
+    }
+    .list-item__date{
+        font-size: 12px;
+    }
+    .list-item__text {
+        font-size: 12px;
+    }
 }
 /* --- Если меньше 567px то... --- */
 @media (max-width: 567px) {
