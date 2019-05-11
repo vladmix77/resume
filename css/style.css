@@ -22,7 +22,7 @@ html {
 }
 .profile-photo {
     height: 270px;
-    background-image: url(/img/foto.jpg);
+    background-image: url(../img/foto.jpg);
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
