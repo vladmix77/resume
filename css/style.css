@@ -279,10 +279,10 @@ background-color: #fff;
     width: 80%;
 }
 .level-90:before {
-    width: 90%;
+    width: 60%;
 }
 .level-50:before {
-    width: 50%;
+    width: 40%;
 }
 
 /* ------ Адаптивная верстка сайта ------ */ 
